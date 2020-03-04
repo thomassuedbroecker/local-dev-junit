@@ -1,15 +1,19 @@
 
 # Write and execute a JUnit test for a Java microservice based on MircoProfile and the OpenLiberty development mode
 
-The project does only contain the technical basics: how to develop a [JUnit](https://junit.org/junit5/) test for the Authors microservice from the [Cloud Native Starter](https://github.com/IBM/cloud-native-starter) example and run both microservice and JUnit test with a [OpenLiberty server in the development mode](https://openliberty.io/blog/2019/10/22/liberty-dev-mode.html). 
+That blog post contains the technical basics: how to develop a JUnit test for the Authors microservice from the Cloud Native Starter example and run both the Authors microservice and JUnit test on OpenLiberty in the development mode.
 
-It isn't intended to be a blueprint, or a how to guide for writing JUnit tests or how to definition test organization, test strategy and so on, it is just to get technically started with one concrete microservice example for the Cloud Native Starter project. 
+That blog post isn't intended to be a blueprint, or a how to guide for writing JUnit tests or how to definition test organization, test strategy and so on. The objective is to get technically started along the concrete microservice example from the Cloud Native Starter project.
+
+You can also visit the OpenLiberty tutorial "MicroProfile or Jakarta EE application" to start with.
+
+The Authors microservice has one RESTful api endpoint called getAuthor. The endpoint provides one parameter for the Author name. The endpoint returns Author data in a JSON format.
 
 You can also visit the [OpenLiberty tutorial "MicroProfile or Jakarta EE application"](https://openliberty.io/guides/microshed-testing.html#bootstrapping-your-application-for-testing) to start with.
 
 The Authors microservice has one RESTful api endpoint called `getAuthor`. The endpoint provides one parameter for the Author name. The endpoint returns Author data in a JSON format.
 
-**The question it:  What do we need and how do we realize it?**
+**What do we need and how do we implement it?**
 
 **We need to**
  
