@@ -1,6 +1,6 @@
 **!!! UNDER CONSTRUCTION !!!**
 
-# Write and execute a JUnit test for a Java microservice based on MircoProfile running at the OpenLiberty server in the development mode
+# Write and execute a JUnit test for a Java microservice based on MircoProfile and the OpenLiberty development mode
 
 The project does only contain the technical basics: how to develop a [JUnit](https://junit.org/junit5/) test for the Authors microservice from the [Cloud Native Starter](https://github.com/IBM/cloud-native-starter) example and run both microservice and JUnit test with a [OpenLiberty server in the development mode](https://openliberty.io/blog/2019/10/22/liberty-dev-mode.html). 
 
