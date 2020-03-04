@@ -1,0 +1,16 @@
+target
+.settings
+.classpath
+.project
+nik.txt
+liberty-opentracing-zipkintracer-1.2-sample.zip
+.factorypath
+.apt_generated
+.apt_generated_tests
+.DS_Store
+
+
+
+
+
+
