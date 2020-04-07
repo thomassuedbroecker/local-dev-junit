@@ -6,7 +6,8 @@ import javax.enterprise.context.ApplicationScoped;
 import java.util.Objects;
 
 // JAX-RS
-import javax.ws.rs.*;
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
 import javax.ws.rs.core.Response;
 import javax.ws.rs.QueryParam;
 

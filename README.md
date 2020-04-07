@@ -23,10 +23,9 @@ The Authors microservice has one RESTful api endpoint called `getAuthor`. The en
  * .. handle different values to invoke the REST Endpoint parameter for the Author name to run tests with a variations of name.
  * .. compare the actual response value with an expected value and document the result.
 
-Here is a example of the test execution:
+The gif shows a sample JUnit test execution in Visual Studio Code of my OpenLiberty project:
 
 ![junit-on-openliberty-run-test](images/junit-on-openliberty-run-test.gif)
-
 
 **Questions are how to**
  
